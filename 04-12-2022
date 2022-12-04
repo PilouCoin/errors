@@ -1,0 +1,658 @@
+@MyEcoria ➜ /workspaces/nano_build (develop ✗) $ make nano_node
+Scanning dependencies of target cryptopp
+[  1%] Building CXX object CMakeFiles/cryptopp.dir/crypto/cryptopp/algparam.cpp.o
+[  1%] Building CXX object CMakeFiles/cryptopp.dir/crypto/cryptopp/allocate.cpp.o
+[  1%] Building CXX object CMakeFiles/cryptopp.dir/crypto/cryptopp/asn.cpp.o
+[  1%] Building CXX object CMakeFiles/cryptopp.dir/crypto/cryptopp/basecode.cpp.o
+[  1%] Building CXX object CMakeFiles/cryptopp.dir/crypto/cryptopp/cpu.cpp.o
+[  1%] Building CXX object CMakeFiles/cryptopp.dir/crypto/cryptopp/cryptlib.cpp.o
+[  2%] Building CXX object CMakeFiles/cryptopp.dir/crypto/cryptopp/default.cpp.o
+[  2%] Building CXX object CMakeFiles/cryptopp.dir/crypto/cryptopp/des.cpp.o
+[  2%] Building CXX object CMakeFiles/cryptopp.dir/crypto/cryptopp/dessp.cpp.o
+[  2%] Building CXX object CMakeFiles/cryptopp.dir/crypto/cryptopp/dll.cpp.o
+[  2%] Building CXX object CMakeFiles/cryptopp.dir/crypto/cryptopp/ec2n.cpp.o
+[  2%] Building CXX object CMakeFiles/cryptopp.dir/crypto/cryptopp/ecp.cpp.o
+[  2%] Building CXX object CMakeFiles/cryptopp.dir/crypto/cryptopp/filters.cpp.o
+[  3%] Building CXX object CMakeFiles/cryptopp.dir/crypto/cryptopp/fips140.cpp.o
+[  3%] Building CXX object CMakeFiles/cryptopp.dir/crypto/cryptopp/gcm.cpp.o
+[  3%] Building CXX object CMakeFiles/cryptopp.dir/crypto/cryptopp/gf2n.cpp.o
+[  3%] Building CXX object CMakeFiles/cryptopp.dir/crypto/cryptopp/gfpcrypt.cpp.o
+[  3%] Building CXX object CMakeFiles/cryptopp.dir/crypto/cryptopp/hex.cpp.o
+[  3%] Building CXX object CMakeFiles/cryptopp.dir/crypto/cryptopp/hmac.cpp.o
+[  4%] Building CXX object CMakeFiles/cryptopp.dir/crypto/cryptopp/hrtimer.cpp.o
+[  4%] Building CXX object CMakeFiles/cryptopp.dir/crypto/cryptopp/integer.cpp.o
+[  4%] Building CXX object CMakeFiles/cryptopp.dir/crypto/cryptopp/iterhash.cpp.o
+[  4%] Building CXX object CMakeFiles/cryptopp.dir/crypto/cryptopp/misc.cpp.o
+[  4%] Building CXX object CMakeFiles/cryptopp.dir/crypto/cryptopp/modes.cpp.o
+[  4%] Building CXX object CMakeFiles/cryptopp.dir/crypto/cryptopp/mqueue.cpp.o
+[  5%] Building CXX object CMakeFiles/cryptopp.dir/crypto/cryptopp/nbtheory.cpp.o
+[  5%] Building CXX object CMakeFiles/cryptopp.dir/crypto/cryptopp/oaep.cpp.o
+[  5%] Building CXX object CMakeFiles/cryptopp.dir/crypto/cryptopp/osrng.cpp.o
+[  5%] Building CXX object CMakeFiles/cryptopp.dir/crypto/cryptopp/pubkey.cpp.o
+[  5%] Building CXX object CMakeFiles/cryptopp.dir/crypto/cryptopp/queue.cpp.o
+[  5%] Building CXX object CMakeFiles/cryptopp.dir/crypto/cryptopp/randpool.cpp.o
+[  5%] Building CXX object CMakeFiles/cryptopp.dir/crypto/cryptopp/rdtables.cpp.o
+[  6%] Building CXX object CMakeFiles/cryptopp.dir/crypto/cryptopp/rijndael.cpp.o
+[  6%] Building CXX object CMakeFiles/cryptopp.dir/crypto/cryptopp/rijndael_simd.cpp.o
+[  6%] Building CXX object CMakeFiles/cryptopp.dir/crypto/cryptopp/rng.cpp.o
+[  6%] Building CXX object CMakeFiles/cryptopp.dir/crypto/cryptopp/sha.cpp.o
+[  6%] Building CXX object CMakeFiles/cryptopp.dir/crypto/cryptopp/sha_simd.cpp.o
+[  6%] Building CXX object CMakeFiles/cryptopp.dir/crypto/cryptopp/simple.cpp.o
+[  7%] Building CXX object CMakeFiles/cryptopp.dir/crypto/cryptopp/sse_simd.cpp.o
+[  7%] Linking CXX static library libcryptopp.a
+[  7%] Built target cryptopp
+Scanning dependencies of target blake2
+[  8%] Building C object CMakeFiles/blake2.dir/crypto/blake2/blake2b.c.o
+[  8%] Linking C static library libblake2.a
+[  8%] Built target blake2
+Scanning dependencies of target crypto_lib
+[  8%] Building CXX object nano/crypto_lib/CMakeFiles/crypto_lib.dir/interface.cpp.o
+[  8%] Building CXX object nano/crypto_lib/CMakeFiles/crypto_lib.dir/random_pool.cpp.o
+[  8%] Building CXX object nano/crypto_lib/CMakeFiles/crypto_lib.dir/secure_memory.cpp.o
+[  8%] Linking CXX static library libcrypto_lib.a
+[  8%] Built target crypto_lib
+Scanning dependencies of target lmdb
+[  8%] Building C object CMakeFiles/lmdb.dir/lmdb/libraries/liblmdb/mdb.c.o
+[  8%] Building C object CMakeFiles/lmdb.dir/lmdb/libraries/liblmdb/midl.c.o
+[  9%] Linking C static library liblmdb.a
+[  9%] Built target lmdb
+Scanning dependencies of target ed25519
+[  9%] Building C object crypto/ed25519-donna/CMakeFiles/ed25519.dir/ed25519.c.o
+[  9%] Linking C static library libed25519.a
+[  9%] Built target ed25519
+Scanning dependencies of target flatbuffers
+[ 10%] Building CXX object nano/ipc_flatbuffers_lib/flatbuffers-build/CMakeFiles/flatbuffers.dir/src/idl_parser.cpp.o
+[ 10%] Building CXX object nano/ipc_flatbuffers_lib/flatbuffers-build/CMakeFiles/flatbuffers.dir/src/idl_gen_text.cpp.o
+[ 10%] Building CXX object nano/ipc_flatbuffers_lib/flatbuffers-build/CMakeFiles/flatbuffers.dir/src/reflection.cpp.o
+[ 10%] Building CXX object nano/ipc_flatbuffers_lib/flatbuffers-build/CMakeFiles/flatbuffers.dir/src/util.cpp.o
+[ 10%] Linking CXX static library libflatbuffers.a
+[ 10%] Built target flatbuffers
+Scanning dependencies of target flatc
+[ 10%] Building CXX object nano/ipc_flatbuffers_lib/flatbuffers-build/CMakeFiles/flatc.dir/src/idl_parser.cpp.o
+[ 11%] Building CXX object nano/ipc_flatbuffers_lib/flatbuffers-build/CMakeFiles/flatc.dir/src/idl_gen_text.cpp.o
+[ 11%] Building CXX object nano/ipc_flatbuffers_lib/flatbuffers-build/CMakeFiles/flatc.dir/src/reflection.cpp.o
+[ 11%] Building CXX object nano/ipc_flatbuffers_lib/flatbuffers-build/CMakeFiles/flatc.dir/src/util.cpp.o
+[ 11%] Building CXX object nano/ipc_flatbuffers_lib/flatbuffers-build/CMakeFiles/flatc.dir/src/idl_gen_cpp.cpp.o
+[ 11%] Building CXX object nano/ipc_flatbuffers_lib/flatbuffers-build/CMakeFiles/flatc.dir/src/idl_gen_csharp.cpp.o
+[ 11%] Building CXX object nano/ipc_flatbuffers_lib/flatbuffers-build/CMakeFiles/flatc.dir/src/idl_gen_dart.cpp.o
+[ 11%] Building CXX object nano/ipc_flatbuffers_lib/flatbuffers-build/CMakeFiles/flatc.dir/src/idl_gen_kotlin.cpp.o
+[ 13%] Building CXX object nano/ipc_flatbuffers_lib/flatbuffers-build/CMakeFiles/flatc.dir/src/idl_gen_go.cpp.o
+[ 13%] Building CXX object nano/ipc_flatbuffers_lib/flatbuffers-build/CMakeFiles/flatc.dir/src/idl_gen_java.cpp.o
+[ 13%] Building CXX object nano/ipc_flatbuffers_lib/flatbuffers-build/CMakeFiles/flatc.dir/src/idl_gen_ts.cpp.o
+[ 13%] Building CXX object nano/ipc_flatbuffers_lib/flatbuffers-build/CMakeFiles/flatc.dir/src/idl_gen_php.cpp.o
+[ 13%] Building CXX object nano/ipc_flatbuffers_lib/flatbuffers-build/CMakeFiles/flatc.dir/src/idl_gen_python.cpp.o
+[ 13%] Building CXX object nano/ipc_flatbuffers_lib/flatbuffers-build/CMakeFiles/flatc.dir/src/idl_gen_lobster.cpp.o
+[ 14%] Building CXX object nano/ipc_flatbuffers_lib/flatbuffers-build/CMakeFiles/flatc.dir/src/idl_gen_lua.cpp.o
+[ 14%] Building CXX object nano/ipc_flatbuffers_lib/flatbuffers-build/CMakeFiles/flatc.dir/src/idl_gen_rust.cpp.o
+[ 14%] Building CXX object nano/ipc_flatbuffers_lib/flatbuffers-build/CMakeFiles/flatc.dir/src/idl_gen_fbs.cpp.o
+[ 14%] Building CXX object nano/ipc_flatbuffers_lib/flatbuffers-build/CMakeFiles/flatc.dir/src/idl_gen_grpc.cpp.o
+[ 14%] Building CXX object nano/ipc_flatbuffers_lib/flatbuffers-build/CMakeFiles/flatc.dir/src/idl_gen_json_schema.cpp.o
+[ 14%] Building CXX object nano/ipc_flatbuffers_lib/flatbuffers-build/CMakeFiles/flatc.dir/src/idl_gen_swift.cpp.o
+[ 15%] Building CXX object nano/ipc_flatbuffers_lib/flatbuffers-build/CMakeFiles/flatc.dir/src/flatc.cpp.o
+[ 15%] Building CXX object nano/ipc_flatbuffers_lib/flatbuffers-build/CMakeFiles/flatc.dir/src/flatc_main.cpp.o
+[ 15%] Building CXX object nano/ipc_flatbuffers_lib/flatbuffers-build/CMakeFiles/flatc.dir/src/code_generators.cpp.o
+[ 15%] Building CXX object nano/ipc_flatbuffers_lib/flatbuffers-build/CMakeFiles/flatc.dir/grpc/src/compiler/cpp_generator.cc.o
+[ 15%] Building CXX object nano/ipc_flatbuffers_lib/flatbuffers-build/CMakeFiles/flatc.dir/grpc/src/compiler/go_generator.cc.o
+[ 15%] Building CXX object nano/ipc_flatbuffers_lib/flatbuffers-build/CMakeFiles/flatc.dir/grpc/src/compiler/java_generator.cc.o
+[ 15%] Building CXX object nano/ipc_flatbuffers_lib/flatbuffers-build/CMakeFiles/flatc.dir/grpc/src/compiler/python_generator.cc.o
+[ 16%] Building CXX object nano/ipc_flatbuffers_lib/flatbuffers-build/CMakeFiles/flatc.dir/grpc/src/compiler/swift_generator.cc.o
+[ 16%] Building CXX object nano/ipc_flatbuffers_lib/flatbuffers-build/CMakeFiles/flatc.dir/grpc/src/compiler/ts_generator.cc.o
+[ 16%] Linking CXX executable ../../../flatc
+[ 16%] Built target flatc
+[ 16%] Generating generated/flatbuffers/nanoapi_generated.h
+Scanning dependencies of target ipc_flatbuffers_lib
+[ 16%] Building CXX object nano/ipc_flatbuffers_lib/CMakeFiles/ipc_flatbuffers_lib.dir/flatbuffer_producer.cpp.o
+[ 16%] Linking CXX static library libipc_flatbuffers_lib.a
+[ 16%] Built target ipc_flatbuffers_lib
+Scanning dependencies of target nano_lib
+[ 16%] Building CXX object nano/lib/CMakeFiles/nano_lib.dir/plat/linux/priority.cpp.o
+[ 16%] Building CXX object nano/lib/CMakeFiles/nano_lib.dir/plat/posix/perms.cpp.o
+[ 17%] Building CXX object nano/lib/CMakeFiles/nano_lib.dir/plat/linux/thread_role.cpp.o
+[ 17%] Building CXX object nano/lib/CMakeFiles/nano_lib.dir/plat/linux/debugging.cpp.o
+[ 17%] Building CXX object nano/lib/CMakeFiles/nano_lib.dir/asio.cpp.o
+[ 17%] Building CXX object nano/lib/CMakeFiles/nano_lib.dir/blockbuilders.cpp.o
+[ 17%] Building CXX object nano/lib/CMakeFiles/nano_lib.dir/blocks.cpp.o
+[ 17%] Building CXX object nano/lib/CMakeFiles/nano_lib.dir/cli.cpp.o
+[ 18%] Building CXX object nano/lib/CMakeFiles/nano_lib.dir/config.cpp.o
+[ 18%] Building CXX object nano/lib/CMakeFiles/nano_lib.dir/diagnosticsconfig.cpp.o
+[ 18%] Building CXX object nano/lib/CMakeFiles/nano_lib.dir/epoch.cpp.o
+[ 18%] Building CXX object nano/lib/CMakeFiles/nano_lib.dir/errors.cpp.o
+[ 18%] Building CXX object nano/lib/CMakeFiles/nano_lib.dir/ipc.cpp.o
+[ 18%] Building CXX object nano/lib/CMakeFiles/nano_lib.dir/ipc_client.cpp.o
+[ 18%] Building CXX object nano/lib/CMakeFiles/nano_lib.dir/jsonconfig.cpp.o
+[ 19%] Building CXX object nano/lib/CMakeFiles/nano_lib.dir/lmdbconfig.cpp.o
+[ 19%] Building CXX object nano/lib/CMakeFiles/nano_lib.dir/locks.cpp.o
+[ 19%] Building CXX object nano/lib/CMakeFiles/nano_lib.dir/memory.cpp.o
+[ 19%] Building CXX object nano/lib/CMakeFiles/nano_lib.dir/numbers.cpp.o
+[ 19%] Building CXX object nano/lib/CMakeFiles/nano_lib.dir/rate_limiting.cpp.o
+[ 19%] Building CXX object nano/lib/CMakeFiles/nano_lib.dir/rep_weights.cpp.o
+[ 20%] Building CXX object nano/lib/CMakeFiles/nano_lib.dir/rocksdbconfig.cpp.o
+[ 20%] Building CXX object nano/lib/CMakeFiles/nano_lib.dir/rpcconfig.cpp.o
+[ 20%] Building CXX object nano/lib/CMakeFiles/nano_lib.dir/signal_manager.cpp.o
+[ 20%] Building CXX object nano/lib/CMakeFiles/nano_lib.dir/stats.cpp.o
+[ 20%] Building CXX object nano/lib/CMakeFiles/nano_lib.dir/threading.cpp.o
+[ 20%] Building CXX object nano/lib/CMakeFiles/nano_lib.dir/timer.cpp.o
+[ 21%] Building CXX object nano/lib/CMakeFiles/nano_lib.dir/tlsconfig.cpp.o
+[ 21%] Building CXX object nano/lib/CMakeFiles/nano_lib.dir/tomlconfig.cpp.o
+[ 21%] Building CXX object nano/lib/CMakeFiles/nano_lib.dir/utility.cpp.o
+[ 21%] Building CXX object nano/lib/CMakeFiles/nano_lib.dir/walletconfig.cpp.o
+[ 21%] Building CXX object nano/lib/CMakeFiles/nano_lib.dir/work.cpp.o
+[ 21%] Linking CXX static library libnano_lib.a
+[ 21%] Built target nano_lib
+Scanning dependencies of target secure
+[ 22%] Building CXX object nano/secure/CMakeFiles/secure.dir/plat/posix/working.cpp.o
+[ 22%] Building CXX object nano/secure/CMakeFiles/secure.dir/__/__/bootstrap_weights_live.cpp.o
+[ 22%] Building CXX object nano/secure/CMakeFiles/secure.dir/__/__/bootstrap_weights_beta.cpp.o
+[ 22%] Building CXX object nano/secure/CMakeFiles/secure.dir/store.cpp.o
+[ 22%] Building CXX object nano/secure/CMakeFiles/secure.dir/common.cpp.o
+[ 22%] Building CXX object nano/secure/CMakeFiles/secure.dir/ledger.cpp.o
+[ 23%] Building CXX object nano/secure/CMakeFiles/secure.dir/network_filter.cpp.o
+[ 23%] Building CXX object nano/secure/CMakeFiles/secure.dir/utility.cpp.o
+[ 23%] Building CXX object nano/secure/CMakeFiles/secure.dir/versioning.cpp.o
+[ 23%] Linking CXX static library libsecure.a
+[ 23%] Built target secure
+Scanning dependencies of target rpc
+[ 23%] Building CXX object nano/rpc/CMakeFiles/rpc.dir/rpc.cpp.o
+[ 23%] Building CXX object nano/rpc/CMakeFiles/rpc.dir/rpc_connection.cpp.o
+[ 23%] Building CXX object nano/rpc/CMakeFiles/rpc.dir/rpc_handler.cpp.o
+[ 23%] Building CXX object nano/rpc/CMakeFiles/rpc.dir/rpc_request_processor.cpp.o
+[ 23%] Linking CXX static library librpc.a
+[ 23%] Built target rpc
+Scanning dependencies of target argon2
+[ 23%] Building C object CMakeFiles/argon2.dir/crypto/phc-winner-argon2/src/argon2.c.o
+[ 23%] Building C object CMakeFiles/argon2.dir/crypto/phc-winner-argon2/src/core.c.o
+[ 23%] Building C object CMakeFiles/argon2.dir/crypto/phc-winner-argon2/src/thread.c.o
+[ 23%] Building C object CMakeFiles/argon2.dir/crypto/phc-winner-argon2/src/encoding.c.o
+[ 23%] Building C object CMakeFiles/argon2.dir/crypto/phc-winner-argon2/src/opt.c.o
+[ 23%] Linking C static library libargon2.a
+[ 23%] Built target argon2
+Scanning dependencies of target diskhash
+[ 23%] Building C object CMakeFiles/diskhash.dir/diskhash/src/diskhash.c.o
+[ 23%] Linking C static library libdiskhash.a
+[ 23%] Built target diskhash
+Scanning dependencies of target rocksdb
+[ 23%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/cache/cache.cc.o
+[ 23%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/cache/cache_entry_roles.cc.o
+[ 23%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/cache/cache_key.cc.o
+[ 23%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/cache/cache_reservation_manager.cc.o
+[ 25%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/cache/clock_cache.cc.o
+[ 25%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/cache/lru_cache.cc.o
+[ 25%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/cache/sharded_cache.cc.o
+[ 25%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/arena_wrapped_db_iter.cc.o
+[ 25%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/blob/blob_fetcher.cc.o
+[ 25%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/blob/blob_file_addition.cc.o
+[ 26%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/blob/blob_file_builder.cc.o
+[ 26%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/blob/blob_file_cache.cc.o
+[ 26%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/blob/blob_file_garbage.cc.o
+[ 26%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/blob/blob_file_meta.cc.o
+[ 26%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/blob/blob_file_reader.cc.o
+[ 26%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/blob/blob_garbage_meter.cc.o
+[ 26%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/blob/blob_log_format.cc.o
+[ 27%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/blob/blob_log_sequential_reader.cc.o
+[ 27%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/blob/blob_log_writer.cc.o
+[ 27%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/blob/prefetch_buffer_collection.cc.o
+[ 27%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/builder.cc.o
+[ 27%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/c.cc.o
+[ 27%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/column_family.cc.o
+[ 28%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/compaction/compaction.cc.o
+[ 28%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/compaction/compaction_iterator.cc.o
+[ 28%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/compaction/compaction_picker.cc.o
+[ 28%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/compaction/compaction_job.cc.o
+[ 28%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/compaction/compaction_picker_fifo.cc.o
+[ 28%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/compaction/compaction_picker_level.cc.o
+[ 29%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/compaction/compaction_picker_universal.cc.o
+[ 29%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/compaction/sst_partitioner.cc.o
+[ 29%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/convenience.cc.o
+[ 29%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/db_filesnapshot.cc.o
+[ 29%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/db_impl/compacted_db_impl.cc.o
+[ 29%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/db_impl/db_impl.cc.o
+[ 29%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/db_impl/db_impl_write.cc.o
+[ 30%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/db_impl/db_impl_compaction_flush.cc.o
+[ 30%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/db_impl/db_impl_files.cc.o
+[ 30%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/db_impl/db_impl_open.cc.o
+[ 30%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/db_impl/db_impl_debug.cc.o
+[ 30%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/db_impl/db_impl_experimental.cc.o
+[ 30%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/db_impl/db_impl_readonly.cc.o
+[ 31%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/db_impl/db_impl_secondary.cc.o
+[ 31%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/db_info_dumper.cc.o
+[ 31%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/db_iter.cc.o
+[ 31%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/dbformat.cc.o
+[ 31%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/error_handler.cc.o
+[ 31%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/event_helpers.cc.o
+[ 32%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/experimental.cc.o
+[ 32%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/external_sst_file_ingestion_job.cc.o
+[ 32%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/file_indexer.cc.o
+[ 32%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/flush_job.cc.o
+[ 32%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/flush_scheduler.cc.o
+[ 32%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/forward_iterator.cc.o
+[ 33%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/import_column_family_job.cc.o
+[ 33%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/internal_stats.cc.o
+[ 33%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/logs_with_prep_tracker.cc.o
+[ 33%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/log_reader.cc.o
+[ 33%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/log_writer.cc.o
+[ 33%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/malloc_stats.cc.o
+[ 33%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/memtable.cc.o
+[ 34%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/memtable_list.cc.o
+[ 34%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/merge_helper.cc.o
+[ 34%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/merge_operator.cc.o
+[ 34%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/output_validator.cc.o
+[ 34%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/periodic_work_scheduler.cc.o
+[ 34%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/range_del_aggregator.cc.o
+[ 35%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/range_tombstone_fragmenter.cc.o
+[ 35%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/repair.cc.o
+[ 35%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/snapshot_impl.cc.o
+[ 35%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/table_cache.cc.o
+[ 35%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/table_properties_collector.cc.o
+[ 35%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/transaction_log_impl.cc.o
+[ 36%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/trim_history_scheduler.cc.o
+[ 36%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/version_builder.cc.o
+[ 36%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/version_edit.cc.o
+[ 36%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/version_edit_handler.cc.o
+[ 36%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/version_set.cc.o
+[ 36%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/wal_edit.cc.o
+[ 36%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/wal_manager.cc.o
+[ 38%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/write_batch.cc.o
+[ 38%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/write_batch_base.cc.o
+[ 38%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/write_controller.cc.o
+[ 38%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/db/write_thread.cc.o
+[ 38%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/env/composite_env.cc.o
+[ 38%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/env/env.cc.o
+[ 39%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/env/env_chroot.cc.o
+[ 39%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/env/env_encryption.cc.o
+[ 39%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/env/env_hdfs.cc.o
+[ 39%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/env/file_system.cc.o
+[ 39%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/env/file_system_tracer.cc.o
+[ 39%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/env/fs_remap.cc.o
+[ 40%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/env/mock_env.cc.o
+[ 40%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/env/unique_id_gen.cc.o
+[ 40%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/file/delete_scheduler.cc.o
+[ 40%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/file/file_prefetch_buffer.cc.o
+[ 40%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/file/file_util.cc.o
+[ 40%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/file/filename.cc.o
+[ 40%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/file/line_file_reader.cc.o
+[ 41%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/file/random_access_file_reader.cc.o
+[ 41%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/file/read_write_util.cc.o
+[ 41%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/file/readahead_raf.cc.o
+[ 41%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/file/sequence_file_reader.cc.o
+[ 41%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/file/sst_file_manager_impl.cc.o
+[ 41%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/file/writable_file_writer.cc.o
+[ 42%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/logging/auto_roll_logger.cc.o
+[ 42%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/logging/event_logger.cc.o
+[ 42%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/logging/log_buffer.cc.o
+[ 42%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/memory/arena.cc.o
+[ 42%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/memory/concurrent_arena.cc.o
+[ 42%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/memory/jemalloc_nodump_allocator.cc.o
+[ 43%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/memory/memkind_kmem_allocator.cc.o
+[ 43%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/memory/memory_allocator.cc.o
+[ 43%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/memtable/alloc_tracker.cc.o
+[ 43%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/memtable/hash_linklist_rep.cc.o
+[ 43%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/memtable/hash_skiplist_rep.cc.o
+[ 43%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/memtable/skiplistrep.cc.o
+[ 44%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/memtable/vectorrep.cc.o
+[ 44%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/memtable/write_buffer_manager.cc.o
+[ 44%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/monitoring/histogram.cc.o
+[ 44%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/monitoring/histogram_windowing.cc.o
+[ 44%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/monitoring/in_memory_stats_history.cc.o
+[ 44%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/monitoring/instrumented_mutex.cc.o
+[ 44%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/monitoring/iostats_context.cc.o
+[ 45%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/monitoring/perf_context.cc.o
+[ 45%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/monitoring/perf_level.cc.o
+[ 45%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/monitoring/persistent_stats_history.cc.o
+[ 45%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/monitoring/statistics.cc.o
+[ 45%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/monitoring/thread_status_impl.cc.o
+[ 45%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/monitoring/thread_status_updater.cc.o
+[ 46%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/monitoring/thread_status_util.cc.o
+[ 46%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/monitoring/thread_status_util_debug.cc.o
+[ 46%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/options/cf_options.cc.o
+[ 46%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/options/configurable.cc.o
+[ 46%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/options/customizable.cc.o
+[ 46%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/options/db_options.cc.o
+[ 47%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/options/options.cc.o
+[ 47%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/options/options_helper.cc.o
+[ 47%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/options/options_parser.cc.o
+[ 47%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/port/stack_trace.cc.o
+[ 47%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/adaptive/adaptive_table_factory.cc.o
+[ 47%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/block_based/binary_search_index_reader.cc.o
+[ 47%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/block_based/block.cc.o
+[ 48%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/block_based/block_based_filter_block.cc.o
+[ 48%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/block_based/block_based_table_builder.cc.o
+[ 48%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/block_based/block_based_table_factory.cc.o
+[ 48%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/block_based/block_based_table_iterator.cc.o
+[ 48%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/block_based/block_based_table_reader.cc.o
+[ 48%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/block_based/block_builder.cc.o
+[ 50%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/block_based/block_prefetcher.cc.o
+[ 50%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/block_based/block_prefix_index.cc.o
+[ 50%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/block_based/data_block_hash_index.cc.o
+[ 50%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/block_based/data_block_footer.cc.o
+[ 50%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/block_based/filter_block_reader_common.cc.o
+[ 50%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/block_based/filter_policy.cc.o
+[ 51%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/block_based/flush_block_policy.cc.o
+[ 51%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/block_based/full_filter_block.cc.o
+[ 51%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/block_based/hash_index_reader.cc.o
+[ 51%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/block_based/index_builder.cc.o
+[ 51%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/block_based/index_reader_common.cc.o
+[ 51%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/block_based/parsed_full_filter_block.cc.o
+[ 51%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/block_based/partitioned_filter_block.cc.o
+[ 52%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/block_based/partitioned_index_iterator.cc.o
+[ 52%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/block_based/partitioned_index_reader.cc.o
+[ 52%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/block_based/reader_common.cc.o
+[ 52%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/block_based/uncompression_dict_reader.cc.o
+[ 52%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/block_fetcher.cc.o
+[ 52%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/cuckoo/cuckoo_table_builder.cc.o
+[ 53%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/cuckoo/cuckoo_table_factory.cc.o
+[ 53%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/cuckoo/cuckoo_table_reader.cc.o
+[ 53%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/format.cc.o
+[ 53%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/get_context.cc.o
+[ 53%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/iterator.cc.o
+[ 53%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/merging_iterator.cc.o
+[ 54%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/meta_blocks.cc.o
+[ 54%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/persistent_cache_helper.cc.o
+[ 54%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/plain/plain_table_bloom.cc.o
+[ 54%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/plain/plain_table_builder.cc.o
+[ 54%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/plain/plain_table_factory.cc.o
+[ 54%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/plain/plain_table_index.cc.o
+[ 55%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/plain/plain_table_key_coding.cc.o
+[ 55%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/plain/plain_table_reader.cc.o
+[ 55%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/sst_file_dumper.cc.o
+[ 55%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/sst_file_reader.cc.o
+[ 55%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/sst_file_writer.cc.o
+[ 55%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/table_factory.cc.o
+[ 55%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/table_properties.cc.o
+[ 56%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/two_level_iterator.cc.o
+[ 56%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/table/unique_id.cc.o
+[ 56%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/test_util/sync_point.cc.o
+[ 56%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/test_util/sync_point_impl.cc.o
+[ 56%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/test_util/testutil.cc.o
+[ 56%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/test_util/transaction_test_util.cc.o
+[ 57%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/tools/block_cache_analyzer/block_cache_trace_analyzer.cc.o
+[ 57%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/tools/dump/db_dump_tool.cc.o
+[ 57%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/tools/io_tracer_parser_tool.cc.o
+[ 57%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/tools/ldb_cmd.cc.o
+[ 57%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/tools/ldb_tool.cc.o
+[ 57%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/tools/sst_dump_tool.cc.o
+[ 58%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/tools/trace_analyzer_tool.cc.o
+[ 58%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/trace_replay/block_cache_tracer.cc.o
+[ 58%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/trace_replay/io_tracer.cc.o
+[ 58%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/trace_replay/trace_record_handler.cc.o
+[ 58%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/trace_replay/trace_record_result.cc.o
+[ 58%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/trace_replay/trace_record.cc.o
+[ 58%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/trace_replay/trace_replay.cc.o
+[ 59%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/util/coding.cc.o
+[ 59%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/util/compaction_job_stats_impl.cc.o
+[ 59%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/util/comparator.cc.o
+[ 59%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/util/compression_context_cache.cc.o
+[ 59%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/util/concurrent_task_limiter_impl.cc.o
+[ 59%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/util/crc32c.cc.o
+[ 60%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/util/dynamic_bloom.cc.o
+[ 60%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/util/hash.cc.o
+[ 60%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/util/murmurhash.cc.o
+[ 60%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/util/random.cc.o
+[ 60%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/util/rate_limiter.cc.o
+[ 60%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/util/ribbon_config.cc.o
+[ 61%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/util/regex.cc.o
+[ 61%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/util/slice.cc.o
+[ 61%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/util/file_checksum_helper.cc.o
+[ 61%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/util/status.cc.o
+[ 61%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/util/string_util.cc.o
+[ 61%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/util/thread_local.cc.o
+[ 61%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/util/threadpool_imp.cc.o
+[ 63%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/util/xxhash.cc.o
+[ 63%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/backupable/backupable_db.cc.o
+[ 63%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/blob_db/blob_compaction_filter.cc.o
+[ 63%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/blob_db/blob_db.cc.o
+[ 63%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/blob_db/blob_db_impl.cc.o
+[ 63%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/blob_db/blob_db_impl_filesnapshot.cc.o
+[ 64%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/blob_db/blob_dump_tool.cc.o
+[ 64%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/blob_db/blob_file.cc.o
+[ 64%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/cache_dump_load.cc.o
+[ 64%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/cache_dump_load_impl.cc.o
+[ 64%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/cassandra/cassandra_compaction_filter.cc.o
+[ 64%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/cassandra/format.cc.o
+[ 65%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/cassandra/merge_operator.cc.o
+[ 65%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/checkpoint/checkpoint_impl.cc.o
+[ 65%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/compaction_filters.cc.o
+[ 65%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/compaction_filters/remove_emptyvalue_compactionfilter.cc.o
+[ 65%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/debug.cc.o
+[ 65%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/env_mirror.cc.o
+[ 66%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/env_timed.cc.o
+[ 66%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/fault_injection_env.cc.o
+[ 66%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/fault_injection_fs.cc.o
+[ 66%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/fault_injection_secondary_cache.cc.o
+[ 66%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/leveldb_options/leveldb_options.cc.o
+[ 66%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/memory/memory_util.cc.o
+[ 66%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/merge_operators.cc.o
+[ 67%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/merge_operators/bytesxor.cc.o
+[ 67%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/merge_operators/max.cc.o
+[ 67%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/merge_operators/put.cc.o
+[ 67%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/merge_operators/sortlist.cc.o
+[ 67%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/merge_operators/string_append/stringappend.cc.o
+[ 67%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/merge_operators/string_append/stringappend2.cc.o
+[ 68%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/merge_operators/uint64add.cc.o
+[ 68%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/object_registry.cc.o
+[ 68%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/option_change_migration/option_change_migration.cc.o
+[ 68%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/options/options_util.cc.o
+[ 68%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier.cc.o
+[ 68%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier_file.cc.o
+[ 69%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/persistent_cache/block_cache_tier_metadata.cc.o
+[ 69%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/persistent_cache/persistent_cache_tier.cc.o
+[ 69%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/persistent_cache/volatile_tier_impl.cc.o
+[ 69%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/simulator_cache/cache_simulator.cc.o
+[ 69%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/simulator_cache/sim_cache.cc.o
+[ 69%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/table_properties_collectors/compact_on_deletion_collector.cc.o
+[ 69%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/trace/file_trace_reader_writer.cc.o
+[ 70%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/trace/replayer_impl.cc.o
+[ 70%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/transactions/lock/lock_manager.cc.o
+[ 70%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/transactions/lock/point/point_lock_tracker.cc.o
+[ 70%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/transactions/lock/point/point_lock_manager.cc.o
+[ 70%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/transactions/lock/range/range_tree/range_tree_lock_manager.cc.o
+[ 70%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/transactions/lock/range/range_tree/range_tree_lock_tracker.cc.o
+[ 71%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/transactions/optimistic_transaction_db_impl.cc.o
+[ 71%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/transactions/optimistic_transaction.cc.o
+[ 71%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/transactions/pessimistic_transaction.cc.o
+[ 71%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/transactions/pessimistic_transaction_db.cc.o
+[ 71%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/transactions/snapshot_checker.cc.o
+[ 71%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/transactions/transaction_base.cc.o
+[ 72%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/transactions/transaction_db_mutex_impl.cc.o
+[ 72%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/transactions/transaction_util.cc.o
+[ 72%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/transactions/write_prepared_txn.cc.o
+[ 72%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/transactions/write_prepared_txn_db.cc.o
+[ 72%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/transactions/write_unprepared_txn.cc.o
+[ 72%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/transactions/write_unprepared_txn_db.cc.o
+[ 72%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/ttl/db_ttl_impl.cc.o
+[ 73%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/wal_filter.cc.o
+[ 73%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/write_batch_with_index/write_batch_with_index.cc.o
+[ 73%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/write_batch_with_index/write_batch_with_index_internal.cc.o
+[ 73%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/transactions/lock/range/range_tree/lib/locktree/concurrent_tree.cc.o
+[ 73%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/transactions/lock/range/range_tree/lib/locktree/keyrange.cc.o
+[ 73%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/transactions/lock/range/range_tree/lib/locktree/lock_request.cc.o
+[ 75%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/transactions/lock/range/range_tree/lib/locktree/locktree.cc.o
+[ 75%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/transactions/lock/range/range_tree/lib/locktree/manager.cc.o
+[ 75%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/transactions/lock/range/range_tree/lib/locktree/range_buffer.cc.o
+[ 75%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/transactions/lock/range/range_tree/lib/locktree/treenode.cc.o
+[ 75%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/transactions/lock/range/range_tree/lib/locktree/txnid_set.cc.o
+[ 75%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/transactions/lock/range/range_tree/lib/locktree/wfg.cc.o
+[ 76%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/transactions/lock/range/range_tree/lib/standalone_port.cc.o
+[ 76%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/transactions/lock/range/range_tree/lib/util/dbt.cc.o
+[ 76%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/utilities/transactions/lock/range/range_tree/lib/util/memarena.cc.o
+[ 76%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/port/port_posix.cc.o
+[ 76%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/env/env_posix.cc.o
+[ 76%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/env/fs_posix.cc.o
+[ 77%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/env/io_posix.cc.o
+[ 77%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/third-party/folly/folly/detail/Futex.cpp.o
+[ 77%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/third-party/folly/folly/synchronization/AtomicNotification.cpp.o
+[ 77%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/third-party/folly/folly/synchronization/DistributedMutex.cpp.o
+[ 77%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/third-party/folly/folly/synchronization/ParkingLot.cpp.o
+[ 77%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/third-party/folly/folly/synchronization/WaitOptions.cpp.o
+[ 77%] Building CXX object rocksdb/CMakeFiles/rocksdb.dir/__/build_version.cc.o
+[ 78%] Linking CXX static library librocksdb.a
+[ 78%] Built target rocksdb
+Scanning dependencies of target libminiupnpc-static
+[ 78%] Building C object miniupnp/miniupnpc/CMakeFiles/libminiupnpc-static.dir/src/igd_desc_parse.c.o
+[ 78%] Building C object miniupnp/miniupnpc/CMakeFiles/libminiupnpc-static.dir/src/miniupnpc.c.o
+[ 78%] Building C object miniupnp/miniupnpc/CMakeFiles/libminiupnpc-static.dir/src/minixml.c.o
+[ 78%] Building C object miniupnp/miniupnpc/CMakeFiles/libminiupnpc-static.dir/src/minisoap.c.o
+[ 79%] Building C object miniupnp/miniupnpc/CMakeFiles/libminiupnpc-static.dir/src/minissdpc.c.o
+[ 79%] Building C object miniupnp/miniupnpc/CMakeFiles/libminiupnpc-static.dir/src/miniwget.c.o
+[ 79%] Building C object miniupnp/miniupnpc/CMakeFiles/libminiupnpc-static.dir/src/upnpcommands.c.o
+[ 79%] Building C object miniupnp/miniupnpc/CMakeFiles/libminiupnpc-static.dir/src/upnpdev.c.o
+[ 79%] Building C object miniupnp/miniupnpc/CMakeFiles/libminiupnpc-static.dir/src/upnpreplyparse.c.o
+[ 79%] Building C object miniupnp/miniupnpc/CMakeFiles/libminiupnpc-static.dir/src/upnperrors.c.o
+[ 79%] Building C object miniupnp/miniupnpc/CMakeFiles/libminiupnpc-static.dir/src/connecthostport.c.o
+[ 80%] Building C object miniupnp/miniupnpc/CMakeFiles/libminiupnpc-static.dir/src/portlistingparse.c.o
+[ 80%] Building C object miniupnp/miniupnpc/CMakeFiles/libminiupnpc-static.dir/src/receivedata.c.o
+[ 80%] Building C object miniupnp/miniupnpc/CMakeFiles/libminiupnpc-static.dir/src/addr_is_reserved.c.o
+[ 80%] Linking C static library libminiupnpc.a
+[ 80%] Built target libminiupnpc-static
+Scanning dependencies of target node
+[ 80%] Building CXX object nano/node/CMakeFiles/node.dir/plat/posix/openclapi.cpp.o
+[ 80%] Building CXX object nano/node/CMakeFiles/node.dir/active_transactions.cpp.o
+[ 81%] Building CXX object nano/node/CMakeFiles/node.dir/backlog_population.cpp.o
+[ 81%] Building CXX object nano/node/CMakeFiles/node.dir/bandwidth_limiter.cpp.o
+[ 81%] Building CXX object nano/node/CMakeFiles/node.dir/block_arrival.cpp.o
+[ 81%] Building CXX object nano/node/CMakeFiles/node.dir/blockprocessor.cpp.o
+[ 81%] Building CXX object nano/node/CMakeFiles/node.dir/bootstrap/block_deserializer.cpp.o
+[ 81%] Building CXX object nano/node/CMakeFiles/node.dir/bootstrap/bootstrap_attempt.cpp.o
+[ 82%] Building CXX object nano/node/CMakeFiles/node.dir/bootstrap/bootstrap_bulk_pull.cpp.o
+[ 82%] Building CXX object nano/node/CMakeFiles/node.dir/bootstrap/bootstrap_bulk_push.cpp.o
+[ 82%] Building CXX object nano/node/CMakeFiles/node.dir/bootstrap/bootstrap_connections.cpp.o
+[ 82%] Building CXX object nano/node/CMakeFiles/node.dir/bootstrap/bootstrap_frontier.cpp.o
+[ 82%] Building CXX object nano/node/CMakeFiles/node.dir/bootstrap/bootstrap_lazy.cpp.o
+[ 82%] Building CXX object nano/node/CMakeFiles/node.dir/bootstrap/bootstrap_legacy.cpp.o
+[ 82%] Building CXX object nano/node/CMakeFiles/node.dir/bootstrap/bootstrap.cpp.o
+[ 83%] Building CXX object nano/node/CMakeFiles/node.dir/bootstrap/bootstrap_server.cpp.o
+[ 83%] Building CXX object nano/node/CMakeFiles/node.dir/cli.cpp.o
+[ 83%] Building CXX object nano/node/CMakeFiles/node.dir/common.cpp.o
+[ 83%] Building CXX object nano/node/CMakeFiles/node.dir/confirmation_height_bounded.cpp.o
+[ 83%] Building CXX object nano/node/CMakeFiles/node.dir/confirmation_height_processor.cpp.o
+[ 83%] Building CXX object nano/node/CMakeFiles/node.dir/confirmation_height_unbounded.cpp.o
+[ 84%] Building CXX object nano/node/CMakeFiles/node.dir/confirmation_solicitor.cpp.o
+[ 84%] Building CXX object nano/node/CMakeFiles/node.dir/daemonconfig.cpp.o
+[ 84%] Building CXX object nano/node/CMakeFiles/node.dir/distributed_work.cpp.o
+[ 84%] Building CXX object nano/node/CMakeFiles/node.dir/distributed_work_factory.cpp.o
+[ 84%] Building CXX object nano/node/CMakeFiles/node.dir/election.cpp.o
+[ 84%] Building CXX object nano/node/CMakeFiles/node.dir/election_scheduler.cpp.o
+[ 85%] Building CXX object nano/node/CMakeFiles/node.dir/gap_cache.cpp.o
+[ 85%] Building CXX object nano/node/CMakeFiles/node.dir/hinted_scheduler.cpp.o
+[ 85%] Building CXX object nano/node/CMakeFiles/node.dir/inactive_cache_information.cpp.o
+[ 85%] Building CXX object nano/node/CMakeFiles/node.dir/inactive_cache_status.cpp.o
+[ 85%] Building CXX object nano/node/CMakeFiles/node.dir/ipc/action_handler.cpp.o
+[ 85%] Building CXX object nano/node/CMakeFiles/node.dir/ipc/flatbuffers_handler.cpp.o
+[ 86%] Building CXX object nano/node/CMakeFiles/node.dir/ipc/flatbuffers_util.cpp.o
+[ 86%] Building CXX object nano/node/CMakeFiles/node.dir/ipc/ipc_access_config.cpp.o
+[ 86%] Building CXX object nano/node/CMakeFiles/node.dir/ipc/ipc_broker.cpp.o
+[ 86%] Building CXX object nano/node/CMakeFiles/node.dir/ipc/ipc_config.cpp.o
+[ 86%] Building CXX object nano/node/CMakeFiles/node.dir/ipc/ipc_server.cpp.o
+[ 86%] Building CXX object nano/node/CMakeFiles/node.dir/json_handler.cpp.o
+[ 86%] Building CXX object nano/node/CMakeFiles/node.dir/ledger_walker.cpp.o
+[ 88%] Building CXX object nano/node/CMakeFiles/node.dir/lmdb/account_store.cpp.o
+[ 88%] Building CXX object nano/node/CMakeFiles/node.dir/lmdb/block_store.cpp.o
+[ 88%] Building CXX object nano/node/CMakeFiles/node.dir/lmdb/confirmation_height_store.cpp.o
+[ 88%] Building CXX object nano/node/CMakeFiles/node.dir/lmdb/final_vote_store.cpp.o
+[ 88%] Building CXX object nano/node/CMakeFiles/node.dir/lmdb/frontier_store.cpp.o
+[ 88%] Building CXX object nano/node/CMakeFiles/node.dir/lmdb/online_weight_store.cpp.o
+[ 89%] Building CXX object nano/node/CMakeFiles/node.dir/lmdb/peer_store.cpp.o
+[ 89%] Building CXX object nano/node/CMakeFiles/node.dir/lmdb/pending_store.cpp.o
+[ 89%] Building CXX object nano/node/CMakeFiles/node.dir/lmdb/pruned_store.cpp.o
+[ 89%] Building CXX object nano/node/CMakeFiles/node.dir/lmdb/version_store.cpp.o
+[ 89%] Building CXX object nano/node/CMakeFiles/node.dir/lmdb/unchecked_store.cpp.o
+[ 89%] Building CXX object nano/node/CMakeFiles/node.dir/lmdb/lmdb.cpp.o
+[ 90%] Building CXX object nano/node/CMakeFiles/node.dir/lmdb/lmdb_env.cpp.o
+[ 90%] Building CXX object nano/node/CMakeFiles/node.dir/lmdb/lmdb_txn.cpp.o
+[ 90%] Building CXX object nano/node/CMakeFiles/node.dir/lmdb/wallet_value.cpp.o
+[ 90%] Building CXX object nano/node/CMakeFiles/node.dir/logging.cpp.o
+[ 90%] Building CXX object nano/node/CMakeFiles/node.dir/network.cpp.o
+[ 90%] Building CXX object nano/node/CMakeFiles/node.dir/nodeconfig.cpp.o
+[ 90%] Building CXX object nano/node/CMakeFiles/node.dir/node_observers.cpp.o
+[ 91%] Building CXX object nano/node/CMakeFiles/node.dir/node_rpc_config.cpp.o
+[ 91%] Building CXX object nano/node/CMakeFiles/node.dir/node.cpp.o
+[ 91%] Building CXX object nano/node/CMakeFiles/node.dir/online_reps.cpp.o
+[ 91%] Building CXX object nano/node/CMakeFiles/node.dir/openclconfig.cpp.o
+[ 91%] Building CXX object nano/node/CMakeFiles/node.dir/openclwork.cpp.o
+[ 91%] Building CXX object nano/node/CMakeFiles/node.dir/peer_exclusion.cpp.o
+[ 92%] Building CXX object nano/node/CMakeFiles/node.dir/portmapping.cpp.o
+[ 92%] Building CXX object nano/node/CMakeFiles/node.dir/prioritization.cpp.o
+[ 92%] Building CXX object nano/node/CMakeFiles/node.dir/node_pow_server_config.cpp.o
+[ 92%] Building CXX object nano/node/CMakeFiles/node.dir/repcrawler.cpp.o
+[ 92%] Building CXX object nano/node/CMakeFiles/node.dir/request_aggregator.cpp.o
+[ 92%] Building CXX object nano/node/CMakeFiles/node.dir/rocksdb/account_store.cpp.o
+[ 93%] Building CXX object nano/node/CMakeFiles/node.dir/rocksdb/block_store.cpp.o
+[ 93%] Building CXX object nano/node/CMakeFiles/node.dir/rocksdb/confirmation_height_store.cpp.o
+[ 93%] Building CXX object nano/node/CMakeFiles/node.dir/rocksdb/final_vote_store.cpp.o
+[ 93%] Building CXX object nano/node/CMakeFiles/node.dir/rocksdb/frontier_store.cpp.o
+[ 93%] Building CXX object nano/node/CMakeFiles/node.dir/rocksdb/online_weight_store.cpp.o
+[ 93%] Building CXX object nano/node/CMakeFiles/node.dir/rocksdb/peer_store.cpp.o
+[ 93%] Building CXX object nano/node/CMakeFiles/node.dir/rocksdb/pending_store.cpp.o
+[ 94%] Building CXX object nano/node/CMakeFiles/node.dir/rocksdb/pruned_store.cpp.o
+[ 94%] Building CXX object nano/node/CMakeFiles/node.dir/rocksdb/unchecked_store.cpp.o
+[ 94%] Building CXX object nano/node/CMakeFiles/node.dir/rocksdb/version_store.cpp.o
+[ 94%] Building CXX object nano/node/CMakeFiles/node.dir/rocksdb/rocksdb.cpp.o
+[ 94%] Building CXX object nano/node/CMakeFiles/node.dir/rocksdb/rocksdb_txn.cpp.o
+[ 94%] Building CXX object nano/node/CMakeFiles/node.dir/signatures.cpp.o
+[ 95%] Building CXX object nano/node/CMakeFiles/node.dir/socket.cpp.o
+[ 95%] Building CXX object nano/node/CMakeFiles/node.dir/state_block_signature_verification.cpp.o
+[ 95%] Building CXX object nano/node/CMakeFiles/node.dir/telemetry.cpp.o
+[ 95%] Building CXX object nano/node/CMakeFiles/node.dir/transport/fake.cpp.o
+[ 95%] Building CXX object nano/node/CMakeFiles/node.dir/transport/inproc.cpp.o
+[ 95%] Building CXX object nano/node/CMakeFiles/node.dir/transport/message_deserializer.cpp.o
+[ 96%] Building CXX object nano/node/CMakeFiles/node.dir/transport/tcp.cpp.o
+[ 96%] Building CXX object nano/node/CMakeFiles/node.dir/transport/tcp_server.cpp.o
+[ 96%] Building CXX object nano/node/CMakeFiles/node.dir/transport/transport.cpp.o
+[ 96%] Building CXX object nano/node/CMakeFiles/node.dir/transport/udp.cpp.o
+[ 96%] Building CXX object nano/node/CMakeFiles/node.dir/unchecked_map.cpp.o
+[ 96%] Building CXX object nano/node/CMakeFiles/node.dir/vote_cache.cpp.o
+[ 97%] Building CXX object nano/node/CMakeFiles/node.dir/vote_processor.cpp.o
+[ 97%] Building CXX object nano/node/CMakeFiles/node.dir/voting.cpp.o
+[ 97%] Building CXX object nano/node/CMakeFiles/node.dir/wallet.cpp.o
+In file included from /workspaces/nano_build/nano/lib/epoch.hpp:3,
+                 from /workspaces/nano_build/nano/lib/blocks.hpp:4,
+                 from /workspaces/nano_build/nano/lib/blockbuilders.hpp:3,
+                 from /workspaces/nano_build/nano/secure/common.hpp:4,
+                 from /workspaces/nano_build/nano/node/election.hpp:3,
+                 from /workspaces/nano_build/nano/node/wallet.cpp:4:
+/workspaces/nano_build/nano/node/wallet.cpp: In instantiation of ‘nano::wallet::send_action(const account&, const account&, const uint128_t&, uint64_t, bool, boost::optional<std::__cxx11::basic_string<char> >)::<lambda(const auto:25&)> [with auto:25 = nano::write_transaction]’:
+/workspaces/nano_build/nano/node/wallet.cpp:1014:52:   required from here
+/workspaces/nano_build/nano/lib/numbers.hpp:193:7: note: ‘class nano::raw_key’ has no user-provided default constructor
+  193 | class raw_key final : public uint256_union
+      |       ^~~~~~~
+In file included from /usr/include/c++/9/tuple:39,
+                 from /usr/include/c++/9/mutex:38,
+                 from /workspaces/nano_build/nano/crypto_lib/random_pool.hpp:3,
+                 from /workspaces/nano_build/nano/node/wallet.cpp:1:
+/usr/include/c++/9/array:110:56: note: and the implicitly-defined constructor does not initialize ‘unsigned char std::array<unsigned char, 32>::_M_elems [32]’
+  110 |       typename _AT_Type::_Type                         _M_elems;
+      |                                                        ^~~~~~~~
+In file included from /workspaces/nano_build/nano/lib/epoch.hpp:3,
+                 from /workspaces/nano_build/nano/lib/blocks.hpp:4,
+                 from /workspaces/nano_build/nano/lib/blockbuilders.hpp:3,
+                 from /workspaces/nano_build/nano/secure/common.hpp:4,
+                 from /workspaces/nano_build/nano/node/election.hpp:3,
+                 from /workspaces/nano_build/nano/node/wallet.cpp:4:
+/workspaces/nano_build/nano/node/wallet.cpp: In instantiation of ‘nano::wallet::send_action(const account&, const account&, const uint128_t&, uint64_t, bool, boost::optional<std::__cxx11::basic_string<char> >)::<lambda(const auto:25&)> [with auto:25 = nano::read_transaction]’:
+/workspaces/nano_build/nano/node/wallet.cpp:1018:51:   required from here
+/workspaces/nano_build/nano/lib/numbers.hpp:193:7: note: ‘class nano::raw_key’ has no user-provided default constructor
+  193 | class raw_key final : public uint256_union
+      |       ^~~~~~~
+In file included from /usr/include/c++/9/tuple:39,
+                 from /usr/include/c++/9/mutex:38,
+                 from /workspaces/nano_build/nano/crypto_lib/random_pool.hpp:3,
+                 from /workspaces/nano_build/nano/node/wallet.cpp:1:
+/usr/include/c++/9/array:110:56: note: and the implicitly-defined constructor does not initialize ‘unsigned char std::array<unsigned char, 32>::_M_elems [32]’
+  110 |       typename _AT_Type::_Type                         _M_elems;
+      |                                                        ^~~~~~~~
+[ 97%] Building CXX object nano/node/CMakeFiles/node.dir/websocket.cpp.o
+[ 97%] Building CXX object nano/node/CMakeFiles/node.dir/websocketconfig.cpp.o
+[ 97%] Building CXX object nano/node/CMakeFiles/node.dir/websocket_stream.cpp.o
+[ 97%] Building CXX object nano/node/CMakeFiles/node.dir/write_database_queue.cpp.o
+[ 98%] Building CXX object nano/node/CMakeFiles/node.dir/messages.cpp.o
+[ 98%] Linking CXX static library libnode.a
+[ 98%] Built target node
+Scanning dependencies of target nano_node
+[ 98%] Building CXX object nano/nano_node/CMakeFiles/nano_node.dir/daemon.cpp.o
+[100%] Building CXX object nano/nano_node/CMakeFiles/nano_node.dir/entry.cpp.o
+[100%] Linking CXX executable ../../nano_node
+Segmentation fault (core dumped)
+make[3]: *** [nano/nano_node/CMakeFiles/nano_node.dir/build.make:127: nano_node] Error 139
+make[3]: *** Deleting file 'nano_node'
+make[2]: *** [CMakeFiles/Makefile2:1027: nano/nano_node/CMakeFiles/nano_node.dir/all] Error 2
+make[1]: *** [CMakeFiles/Makefile2:1034: nano/nano_node/CMakeFiles/nano_node.dir/rule] Error 2
+make: *** [Makefile:485: nano_node] Error 2
